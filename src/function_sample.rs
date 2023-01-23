@@ -13,3 +13,17 @@ impl Rectangle {
         return self;
     }
 }
+
+pub fn test() {
+    let mut rectangle = Rectangle {
+        hight: 10,
+        weight: 12,
+    };
+    println!("{}", rectangle.area());
+
+    rectangle.change_value(3, 45);
+    println!("{}", rectangle.area());
+
+    rectangle.change_value(125, 45);
+    println!("{}", rectangle.area());
+}

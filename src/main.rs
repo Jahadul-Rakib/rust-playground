@@ -6,6 +6,7 @@ extern crate core;
 mod collection_sample;
 mod exercise_one;
 mod function_sample;
+mod struct_sample;
 mod variable_sample;
 
 fn main() {
@@ -13,18 +14,7 @@ fn main() {
     // collection_sample::sample_array();
     // collection_sample::sample_tuple();
     // collection_sample::sample_slice();
-
-    // let mut rectangle = function_sample::Rectangle {
-    //     hight: 10,
-    //     weight: 12,
-    // };
-    // println!("{}", rectangle.area());
-    //
-    // rectangle.change_value(3, 45);
-    // println!("{}", rectangle.area());
-    //
-    // rectangle.change_value(125, 45);
-    // println!("{}", rectangle.area());
-
-    //exercise_one::exercise_one();
+    // function_sample::test();
+    // exercise_one::exercise_one();
+    // struct_sample::test();
 }
