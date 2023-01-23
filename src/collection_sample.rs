@@ -25,3 +25,14 @@ pub fn sample_tuple() {
         counter = counter + 1;
     }
 }
+
+pub fn sample_slice() {
+    let array_data = [2, 3, 13, 4, 3, 3444, 334, 23, 23];
+
+    //slice example
+    let first_slice = &array_data[0..array_data.len()]; //same as (0..)
+    println!("{:?}", first_slice);
+
+    let second_slice = &array_data[0..2];
+    println!("{:?}", second_slice);
+}
