@@ -18,4 +18,10 @@ pub fn sample_variable() {
         }
         mutable_variable += 20;
     }
+
+    let open_positive: usize = 120;
+    println!("{}", open_positive);
+
+    let open_negative: isize = -120;
+    println!("{}", open_negative);
 }
