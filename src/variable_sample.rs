@@ -1,8 +1,8 @@
 pub fn sample_variable() {
-    const MY_CONSTANT_CONVENTION: &str = "Hello ..... Dunia";
+    const MY_CONSTANT_CONVENTION: &str = "Hello ..... Dunia"; //immutable global variable
     println!("{}", MY_CONSTANT_CONVENTION);
 
-    static BANNER: &str = "Welcome to STATIC";
+    static BANNER: &str = "Welcome to STATIC"; //mutable global variable
     println!("{}", BANNER);
 
     let immutable_variable: u32 = 2330;
