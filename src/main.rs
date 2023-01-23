@@ -35,11 +35,11 @@ fn main() {
 }
 
 fn transpose(matrix: [[i32; 3]; 3]) -> [[i32; 3]; 3] {
-    let mut new_matrix: [[i32; 3]; 3] = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+    let mut new_matrix: [[i32; 3]; 3] = Default::default();
 
-    let mut colum_a = [0, 0, 0];
-    let mut colum_b = [0, 0, 0];
-    let mut colum_c = [0, 0, 0];
+    let mut colum_a: [i32; 3] = Default::default();
+    let mut colum_b: [i32; 3] = Default::default();
+    let mut colum_c: [i32; 3] = Default::default();
 
     let mut counter = 0;
     matrix.into_iter().for_each(|mini_list| {
