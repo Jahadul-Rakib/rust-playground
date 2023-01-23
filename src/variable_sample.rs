@@ -2,6 +2,9 @@ pub fn sample_variable() {
     const MY_CONSTANT_CONVENTION: &str = "Hello ..... Dunia";
     println!("{}", MY_CONSTANT_CONVENTION);
 
+    static BANNER: &str = "Welcome to STATIC";
+    println!("{}", BANNER);
+
     let immutable_variable: u32 = 2330;
     println!("{immutable_variable}");
 
