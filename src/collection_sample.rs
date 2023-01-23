@@ -14,8 +14,14 @@ pub fn sample_tuple() {
     let mut counter = 0;
     let length = x.len();
 
-    while counter <= length {
+    while counter < length {
         println!("Roll: {}, Name: {}", x[counter].1, x[counter].0);
+        counter = counter + 1;
+    }
+
+    counter = 0;
+    while counter < length {
+        println!(" Name: {:#?}  Roll: {:#?} ", x[counter].0, x[counter].1); //for debug output
         counter = counter + 1;
     }
 }
