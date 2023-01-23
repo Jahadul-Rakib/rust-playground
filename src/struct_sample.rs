@@ -5,14 +5,14 @@ struct Person {
 
 pub fn test() {
     let person = Person {
-        name: "rakib".parse().unwrap(),
+        name: String::from("rakib"),
         age: 21,
     };
     println!("{:?}", person.name);
     println!("{:?}", person.age);
 
     let person2 = Person {
-        name: "rifat".parse().unwrap(),
+        name: String::from("rifat"),
         ..person
     };
     println!("{:?}", person2.name);

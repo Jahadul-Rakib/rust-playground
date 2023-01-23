@@ -16,5 +16,6 @@ fn main() {
     // collection_sample::sample_slice();
     // function_sample::test();
     // exercise_one::exercise_one();
-    // struct_sample::test();
+
+    struct_sample::test();
 }
