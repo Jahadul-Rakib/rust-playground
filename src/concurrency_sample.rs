@@ -9,8 +9,8 @@ pub fn test() {
 
     let thread_one_name = "test-1";
     let thread_two_name = "test-2";
-    //scope_thread_example(&thread_one_name);
-    //swpan_thread_example();
+    scope_thread_example(&thread_one_name);
+    swpan_thread_example();
 
     // channel example
     let (sender, receiver) = channel();
