@@ -33,7 +33,7 @@ fn swpan_thread_example() {
     let handle = thread::spawn(|| {
         for i in 0..5 {
             println!("spawn thread {}", i);
-            thread::sleep(Duration::from_secs(10));
+            thread::sleep(Duration::from_secs(1));
         }
     });
     handle.join();
