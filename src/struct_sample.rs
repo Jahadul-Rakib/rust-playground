@@ -4,7 +4,7 @@ enum Type {
     MODEL(String),
     SERIAL(u32),
     ACTION { name: String, time: String },
-    OIL = 12,
+    OIL(u32),
 }
 
 // tuple type struct

@@ -4,6 +4,7 @@
 extern crate core;
 
 mod collection_sample;
+mod condition_sample;
 mod exercise_one;
 mod function_sample;
 mod struct_sample;
@@ -16,6 +17,7 @@ fn main() {
     // collection_sample::sample_slice();
     // function_sample::test();
     // exercise_one::exercise_one();
-
-    struct_sample::test();
+    //
+    // struct_sample::test();
+    condition_sample::test();
 }
