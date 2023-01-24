@@ -21,5 +21,5 @@ fn main() {
     //
     // struct_sample::test();
     // condition_sample::test();
-    concurrency_sample::test();
+    // concurrency_sample::test();
 }
