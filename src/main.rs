@@ -10,6 +10,7 @@ mod exercise_one;
 mod function_sample;
 mod struct_sample;
 mod variable_sample;
+mod webserver_sample;
 
 fn main() {
     // variable_sample::sample_variable();
@@ -22,4 +23,6 @@ fn main() {
     // struct_sample::test();
     // condition_sample::test();
     // concurrency_sample::test();
+
+    // webserver_sample::test();
 }
